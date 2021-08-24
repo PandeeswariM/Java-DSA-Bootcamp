@@ -19,7 +19,7 @@ public class _69_sqrt_x {
                 {
                     int mid=start+(end-start)/2;
                     
-                    if(mid<=x/mid)          //To escape the INT OVERFLOW
+                    if(mid<=x/mid)          
                         {ans=mid;
                         start=mid+1;}
                     else
