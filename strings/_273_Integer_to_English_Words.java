@@ -1,5 +1,23 @@
 package strings;
 
+  //https://leetcode.com/problems/integer-to-english-words/submissions/
+   /*
+   Example 1:
+
+Input: num = 123
+Output: "One Hundred Twenty Three"
+Example 2:
+
+Input: num = 12345
+Output: "Twelve Thousand Three Hundred Forty Five"
+Example 3:
+
+Input: num = 1234567
+Output: "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
+   
+   */
+
+
 public class _273_Integer_to_English_Words {
   
 	 private final static String[] lesstwenty= {"","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen","Twenty"};
